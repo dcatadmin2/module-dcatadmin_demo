@@ -1,6 +1,6 @@
 {
-    "name": "DcatAdminDemo",
-    "alias": "dcat-admin-demo",
+    "name": "dcatadmin_demo-module",
+    "alias": "DcatAdminDemo",
     "description": "Dcat Admin Demo Module - A comprehensive demonstration module for Dcat Admin",
     "keywords": ["laravel", "dcat-admin", "module", "demo"],
     "priority": 1,
