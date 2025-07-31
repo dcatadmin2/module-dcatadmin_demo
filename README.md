@@ -1,53 +1,54 @@
-# Dcat Admin Demo Module
+# Dcat Admin 演示模块
 
-A comprehensive demonstration module for Dcat Admin, showcasing various features and best practices.
+一个基于 nwidart/laravel-modules 的 Dcat Admin 演示模块，展示各种功能和最佳实践。
 
-## Installation
+## 安装
 
-You can install the package via composer:
+您可以通过 composer 安装此包：
 
 ```bash
 composer require dcatadmin2/module-dcatadmin_demo
 ```
 
-## Usage
+## 使用方法
 
-After installation, the module will be automatically registered. You can access the demo features through the admin panel.
+安装完成后，模块将自动注册。您可以通过管理面板访问演示功能。
 
-### Publish Configuration
+### 发布配置
 
-If you need to customize the configuration, you can publish it:
+如果您需要自定义配置，可以发布它：
 
 ```bash
 php artisan vendor:publish --tag=madmindemo-config
 ```
 
-## Features
+## 功能特性
 
-- Admin panel integration
-- Database migrations
-- Sample controllers and views
-- Configuration management
-- Testing support
+- 基于 nwidart/laravel-modules 的模块化架构
+- Dcat Admin 管理面板集成
+- 数据库迁移
+- 示例控制器和视图
+- 配置管理
+- 测试支持
 
-## Testing
+## 测试
 
 ```bash
 composer test
 ```
 
-## Changelog
+## 更新日志
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+请查看 [CHANGELOG](CHANGELOG.md) 了解最近更新的详细信息。
 
-## Contributing
+## 贡献指南
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+请查看 [CONTRIBUTING](CONTRIBUTING.md) 了解详情。
 
-## Security
+## 安全
 
-If you discover any security related issues, please email admin@dcatadmin.com instead of using the issue tracker.
+如果您发现任何安全问题，请发送邮件至 admin@dcatadmin.com，而不是使用问题跟踪器。
 
-## License
+## 许可证
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+MIT 许可证 (MIT)。请查看 [许可证文件](LICENSE.md) 了解更多信息。
