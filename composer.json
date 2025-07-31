@@ -45,10 +45,11 @@
     "scripts": {
         "module_init": [
             "@php -r \"if (!file_exists('.env')) { copy('.env.example', '.env'); echo 'Created .env file from .env.example\\n'; } else { echo '.env file already exists\\n'; }\"",
-            "@php -r \"if (!file_exists('database/database.sqlite')) { if (!is_dir('database')) mkdir('database', 0755, true); touch('database/database.sqlite'); echo 'Created database/database.sqlite\\n'; } else { echo 'database/database.sqlite already exists\\n'; }\"",
+            "@php -r \"if (!file_exists('database.sqlite')) { touch('database.sqlite'); echo 'Created database.sqlite\\n'; } else { echo 'database.sqlite already exists\\n'; }\"",
             "@php -r \"if (file_exists('.env') && !strpos(file_get_contents('.env'), 'APP_KEY=') !== false) { echo 'Generating application key...\\n'; }\"",
             "vendor/bin/testbench key:generate --ansi",
-            "vendor/bin/testbench migrate --seed --ansi"
+            "vendor/bin/testbench migrate --ansi",
+            "vendor/bin/testbench db:seed --class=\\\\DcatAdminDemo\\\\Database\\\\Seeders\\\\DatabaseSeeder --ansi"
         ]
     },
     "minimum-stability": "dev",

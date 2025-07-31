@@ -30,7 +30,7 @@ class MAdminDemoServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'madmindemo');
         
         // 加载迁移文件
-        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../Database/migrations');
         
         // 发布配置文件
         $this->publishes([
