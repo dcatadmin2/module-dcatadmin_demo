@@ -1,7 +1,7 @@
 {
     "name": "dcatadmin2/module-dcatadmin_demo",
     "description": "Dcat Admin Demo Module - A comprehensive demonstration module for Dcat Admin",
-    "type": "library",
+    "type": "laravel-module",
     "keywords": ["laravel", "dcat-admin", "module", "demo"],
     "license": "MIT",
     "authors": [
