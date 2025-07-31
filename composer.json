@@ -13,7 +13,7 @@
     "require": {
         "php": "^8.1",
         "laravel/framework": "^10.0|^11.0",
-        "dcat/laravel-admin": "^2.0"
+        "dongasai/dcat-admin2": "11.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0",
@@ -39,6 +39,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
