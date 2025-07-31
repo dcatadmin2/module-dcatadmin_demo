@@ -10,7 +10,7 @@
 ## 文件结构
 
 ```
-module-dcatadmin_demo/
+dcatadmin_demo-module/
 ├── composer.json
 ├── module.json
 └── src/
@@ -130,7 +130,7 @@ module-dcatadmin_demo/
 
 ```bash
 # 安装
-composer require dcatadmin2/module-dcatadmin_demo
+composer require dcatadmin2/dcatadmin_demo-module
 
 # 启用模块
 php artisan module:enable dcatadmindemo

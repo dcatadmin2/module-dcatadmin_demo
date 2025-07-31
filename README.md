@@ -7,7 +7,8 @@
 您可以通过 composer 安装此包：
 
 ```bash
-composer require dcatadmin2/module-dcatadmin_demo
+composer require dcatadmin2/dcatadmin_demo-module
+composer update dcatadmin2/dcatadmin_demo-module
 ```
 
 ## 使用方法
@@ -52,7 +53,7 @@ php artisan vendor:publish --tag=madmindemo-config
 在您的 Laravel 项目中安装此模块：
 
 ```bash
-composer require dcatadmin2/module-dcatadmin_demo
+composer require dcatadmin2/dcatadmin_demo-module
 ```
 
 ### 启用模块
