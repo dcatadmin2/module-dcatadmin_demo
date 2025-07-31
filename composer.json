@@ -1,0 +1,44 @@
+{
+    "name": "dcatadmin2/module-dcatadmin_demo",
+    "description": "Dcat Admin Demo Module - A comprehensive demonstration module for Dcat Admin",
+    "type": "library",
+    "keywords": ["laravel", "dcat-admin", "module", "demo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dcatadmin2",
+            "email": "admin@dcatadmin.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0",
+        "dcat/laravel-admin": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DcatAdminDemo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DcatAdminDemo\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DcatAdminDemo\\Providers\\MAdminDemoServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
