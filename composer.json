@@ -1,5 +1,5 @@
 {
-    "name": "dcatadmin2/DcatadminDemo-module",
+    "name": "dcatadmin2/dcatadmin-demo-module",
     "description": "Dcat Admin Demo Module - A comprehensive demonstration module for Dcat Admin",
     "type": "laravel-module",
     "keywords": ["laravel", "dcat-admin", "module", "demo"],
